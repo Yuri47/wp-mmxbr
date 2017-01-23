@@ -1,0 +1,59 @@
+.imgDicasDiv {
+    height: 200px;
+    overflow: hidden;
+}
+.imgDicas {
+    max-height: 200px;
+    max-width: auto;
+    margin-top: 10px; 
+}
+.dicas {
+    //coloca a altura fixa dos serviços 
+    display:  inline-block;
+    float: none;
+    width: 400px;
+    margin-bottom: 20px;
+    border: solid 2px $corBackground;
+        
+}
+.dicas:hover {
+    border: solid 2px #333;
+    
+}
+.dicas a {
+    text-decoration: none;
+    color: #333; 
+    font-family: 'Lato-HairLine';
+}
+.post {
+     max-width:  58%;  
+    margin: 0 auto; 
+}
+.post p {
+   
+    text-align: left; 
+    font-size: 18px;  
+    line-height: 27px;
+    margin-bottom: 20px; 
+    text-indent: 3em;   
+}
+.data {
+      color: #2f2f2f;
+    color: #333; 
+    font-family: 'Lato-Light';  
+}
+.post strong {
+    font-weight: 600; 
+}
+.post a {
+    color: #999;
+    font-family: 'Lato';
+     text-decoration: none; 
+}  
+.post h3 {
+    text-align: left; 
+     margin-bottom: 10px; 
+}
+.postH3 {
+    margin-bottom: 20px;
+}

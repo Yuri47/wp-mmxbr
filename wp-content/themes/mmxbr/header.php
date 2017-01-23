@@ -45,10 +45,10 @@
                 <span class="tituloMenu">Macromix</span>
               <ul class="nav navbar-nav">
                 
-                <li ><a href="/" class="">Início</a></li>
+                <li ><a href="/wp-mmxbr" class="">Início</a></li>
                 <li><a href="/services" class="">Serviços</a></li>
                 <li><a href="/criarsites" class="">Criação de Sites</a></li>
-                <li><a href="/dicas" class="">Dicas</a></li>
+                <li><a href="dicas" class="">Dicas</a></li>
                 <li><a href="#contact" class="">Contato</a></li>
               </ul>
             </div> 

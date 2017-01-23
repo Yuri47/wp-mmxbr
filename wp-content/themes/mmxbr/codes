@@ -1,0 +1,58 @@
+    
+                 <?php
+                    $args = array(
+	                   'post_type' => 'post',
+                        'order' => 'DESC'
+	 
+                                );
+
+// The Query
+$the_query = new WP_Query( $args );
+
+// The Loop
+if ( $the_query->have_posts() ) {
+	 
+	while ( $the_query->have_posts() ) {
+		$the_query->the_post();
+        
+        
+        
+        ?>
+                 
+                      <div class="grid-4 dicas">
+                    <div class="imgDicasDiv">
+                        <a href="<?php the_permalink(); ?>">
+                            <img src="<?php the_field('imagem'); ?>"  alt="" class="imgDicas">
+                        </a>
+                    </div>
+                    <div class="tituloh3">
+                        <a href="post.html">
+                            <h3><?php echo get_the_title() ?></h3>
+                        </a>
+                    </div>
+                    <div class="descricaoP">
+                        <p><?php echo the_content() ?>
+                        </p>
+ 
+                    </div>
+                    <div class="botaoServico">   
+                    <a href="post.html"> <button type="button" class="botao">Ler mais</button></a>
+                    </div>     
+                </div>
+                  
+                 
+                 
+                 <?php
+         
+		 
+	}
+	 
+	/* Restore original Post Data */
+	wp_reset_postdata();
+} else {
+	// no posts found
+    echo 'n';
+}
+                
+       ?>          
+            

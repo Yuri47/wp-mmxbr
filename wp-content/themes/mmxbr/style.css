@@ -290,25 +290,25 @@ table {
   src: url("font/Lato-Light.ttf") format("truetype");
 }
 
-/* line 31, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 30, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 36, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 35, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 div {
   display: block;
 }
 
-/* line 39, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 38, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 html,
 body {
   height: 100%;
 }
 
-/* line 45, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 44, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 body {
   background-color: #f2f2f2;
   font-family: "Lato";
@@ -320,17 +320,17 @@ body {
   text-align: center;
 }
 
-/* line 57, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 56, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .container {
   width: 1280px;
 }
 
-/* line 61, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 60, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .menu-mobile {
   display: none;
 }
 
-/* line 65, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 64, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 nav {
   background-color: transparent;
   height: 50px;
@@ -341,7 +341,7 @@ nav {
   z-index: 65956;
 }
 
-/* line 77, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 76, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 nav ul li {
   display: inline-block;
   font-size: 1.9em;
@@ -350,7 +350,7 @@ nav ul li {
   padding-top: 10px;
 }
 
-/* line 87, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 86, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 nav ul li a {
   text-decoration: none;
   color: #e4e4e4;
@@ -358,12 +358,12 @@ nav ul li a {
   font-family: 'Lato-HairLine';
 }
 
-/* line 95, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 94, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 nav ul li:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 102, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 101, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .introducao {
   background-image: url(img/imgHeader.jpg);
   background-position: center;
@@ -372,7 +372,7 @@ nav ul li:hover {
   min-height: 100%;
 }
 
-/* line 116, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 115, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .introducao h1 {
   color: #f2f2f2;
   font-size: 120px;
@@ -380,14 +380,14 @@ nav ul li:hover {
   font-family: 'Lato-HairLine';
 }
 
-/* line 123, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 122, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .introducao h3 {
   color: #f2f2f2;
   font-size: 30px;
   font-weight: 200;
 }
 
-/* line 131, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 130, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .container-menu {
   position: absolute;
   top: 50%;
@@ -399,14 +399,14 @@ nav ul li:hover {
   transform: translateY(-50%);
 }
 
-/* line 143, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 142, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 h3 {
   font-family: 'Lato-Light';
   font-size: 36px;
   font-weight: 100;
 }
 
-/* line 150, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 149, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 h4 {
   font-family: 'Lato-Light';
   font-size: 24px;
@@ -415,47 +415,47 @@ h4 {
   padding-top: 5px;
 }
 
-/* line 157, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 156, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 p {
   font-family: 'Lato-Light';
   font-size: 18px;
   line-height: 27px;
 }
 
-/* line 163, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 162, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .titulo {
   margin: 0;
 }
 
-/* line 167, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 166, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .secao {
   margin-top: 50px;
 }
 
-/* line 173, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 172, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .titulo p {
   text-align: left;
   padding-top: 20px;
 }
 
-/* line 177, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 176, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .titulo img {
   width: 400px;
 }
 
-/* line 180, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 179, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .titulo button {
   margin-top: 20px;
 }
 
-/* line 183, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 182, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .titulo h1 {
   font-size: 80px;
   font-family: 'Lato-HairLine';
   padding-bottom: 30px;
 }
 
-/* line 188, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 187, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .botao {
   font-size: 22px;
   font-family: 'Lato';
@@ -466,7 +466,7 @@ p {
   transition: 0.5s;
 }
 
-/* line 197, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 196, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .botao:hover {
   background-color: rgba(0, 0, 0, 0.5);
   transition: 0.5s;
@@ -474,7 +474,7 @@ p {
   color: #f2f2f2;
 }
 
-/* line 203, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 202, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 hr {
   display: block;
   height: 1px;
@@ -485,26 +485,26 @@ hr {
   margin-bottom: 60px;
 }
 
-/* line 213, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 212, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .secao p {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 217, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 216, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .imgServicoDiv {
   height: 130px;
   overflow: hidden;
 }
 
-/* line 221, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 220, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .imgServico {
   max-height: 120px;
   max-width: auto;
   margin-top: 10px;
 }
 
-/* line 228, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 227, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .servico {
   display: inline-block;
   float: none;
@@ -513,26 +513,26 @@ hr {
   border: solid 2px #f2f2f2;
 }
 
-/* line 237, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 236, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .servico:hover {
   border: solid 2px #333;
 }
 
-/* line 241, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 240, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .servico a {
   text-decoration: none;
   color: #333;
   font-family: 'Lato-HairLine';
 }
 
-/* line 246, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 245, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .tituloh3 {
   margin-top: 10px;
   margin-bottom: 10px;
   height: 72px;
 }
 
-/* line 252, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 251, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .descricaoP {
   height: 85px;
   margin-top: 10px;
@@ -540,18 +540,18 @@ hr {
   overflow: hidden;
 }
 
-/* line 261, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 260, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .botaoServico {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* line 265, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 264, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .row {
   text-align: center;
 }
 
-/* line 269, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 268, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .showcase {
   background-image: url(img/imgHeader.jpg);
   padding-top: 60px;
@@ -562,19 +562,19 @@ hr {
   position: relative;
 }
 
-/* line 281, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 280, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .showcase h3 {
   color: #f2f2f2;
 }
 
-/* line 284, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 283, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .showcase .botao {
   color: #f2f2f2;
   border: solid 2px #f2f2f2;
   margin-top: 20px;
 }
 
-/* line 289, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 288, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .showcase-container {
   position: absolute;
   top: 50%;
@@ -586,13 +586,13 @@ hr {
   transform: translateY(-50%);
 }
 
-/* line 299, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 298, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .rodape {
   background-color: #2f2f2f;
   height: 600px;
 }
 
-/* line 304, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 303, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .rodape .container {
   padding-top: 50px;
   color: #f2f2f2;
@@ -601,69 +601,148 @@ hr {
   line-height: 24px;
 }
 
-/* line 312, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 311, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .rodape .container h3 {
   line-height: 32px;
 }
 
-/* line 315, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 314, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .container address {
   max-width: 340px;
   padding: 20px 0;
 }
 
-/* line 323, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 322, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .formulario input {
   width: 100%;
   padding-left: 10px;
   height: 2.5em;
 }
 
-/* line 328, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 327, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .formulario textarea {
   width: 100%;
   padding-left: 10px;
   height: 6em;
 }
 
-/* line 336, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 335, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .form-group {
   width: 90%;
   padding: 10px 0px;
 }
 
-/* line 340, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 339, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .formulario .botao {
   color: #f2f2f2;
   border: solid 2px #f2f2f2;
   padding-top: 10px;
 }
 
-/* line 345, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 344, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .fimDoSite {
   background-color: #222;
   height: 80px;
   color: #4e4e4e;
 }
 
-/* line 350, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 349, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .fimDoSite a {
   color: #6e6e6e;
 }
 
-/* line 353, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 352, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .fimDoSite p {
   padding-top: 10px;
 }
 
-/* line 357, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 356, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 #menu-tgl {
   display: none;
 }
 
-/* line 361, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+/* line 360, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
 .tituloMenu {
   display: none;
+}
+
+/* line 1, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.imgDicasDiv {
+  height: 200px;
+  overflow: hidden;
+}
+
+/* line 5, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.imgDicas {
+  max-height: 200px;
+  max-width: auto;
+  margin-top: 10px;
+}
+
+/* line 10, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.dicas {
+  display: inline-block;
+  float: none;
+  width: 400px;
+  margin-bottom: 20px;
+  border: solid 2px #f2f2f2;
+}
+
+/* line 19, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.dicas:hover {
+  border: solid 2px #333;
+}
+
+/* line 23, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.dicas a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Lato-HairLine';
+}
+
+/* line 28, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.post {
+  max-width: 58%;
+  margin: 0 auto;
+}
+
+/* line 32, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.post p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 20px;
+  text-indent: 3em;
+}
+
+/* line 40, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.data {
+  color: #2f2f2f;
+  color: #333;
+  font-family: 'Lato-Light';
+}
+
+/* line 45, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.post strong {
+  font-weight: 600;
+}
+
+/* line 48, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.post a {
+  color: #999;
+  font-family: 'Lato';
+  text-decoration: none;
+}
+
+/* line 53, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.post h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* line 57, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.postH3 {
+  margin-bottom: 20px;
 }
 
 /* RESPONSIVO Tablet*/
@@ -864,6 +943,18 @@ hr {
     background: currentColor;
     position: relative;
     transition: transform .2s ease;
+  }
+  /* line 185, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_responsiveMobile.scss */
+  .post {
+    max-width: 100%;
+  }
+  /* line 189, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_responsiveMobile.scss */
+  .post p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    text-indent: 3em;
   }
 }
 
