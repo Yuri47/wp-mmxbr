@@ -1,0 +1,378 @@
+/*
+Theme Name: Macromix
+Theme URI: http://macromixbr.com
+Author: Yuri Alexsander
+Author URI: http://macromixbr.com
+Description: Site for Macromix Informática.
+Version: 1.0
+
+Text Domain: MMXBR
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import 'reset';
+@import 'grid';
+
+@font-face {
+    font-family: "Lato";
+    src: url("font/Lato-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Lato-HairLine";
+    src: url("font/Lato-HairLine.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Lato-Light";
+    src: url("font/Lato-Light.ttf") format('truetype');
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+html,
+body {
+  height:100%
+} // tem que colocar essa porra senão o min-height 100% nao funciona.
+$corBackground: #f2f2f2; 
+
+body {
+  
+    background-color: $corBackground; 
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    text-align: center;
+}
+
+.container {
+    width: 1280px;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+nav {
+    background-color: rgba(0,0,0, 0.0);
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 65956;
+}
+nav ul {
+   
+}
+nav ul li {
+    display: inline-block;
+   
+    font-size: 1.9em;
+    margin: 0 20px;
+   
+     height: 50px;
+     padding-top: 10px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: #e4e4e4;
+    padding: 15px;
+    font-family: 'Lato-HairLine';
+     
+     
+}
+nav ul li:hover {
+    
+     background-color: rgba(0,0,0, 0.3);
+     
+}
+
+
+.introducao {
+ 
+   background-image: url(img/imgHeader.jpg); 
+  
+   
+    
+    background-position: center;
+    background-attachment: fixed !important;
+    
+      
+    background-size: cover; 
+    min-height: 100%; 
+}
+
+.introducao h1 { 
+    color: #f2f2f2; 
+    font-size: 120px;   
+    font-weight: 200;
+    font-family: 'Lato-HairLine';
+        
+}
+.introducao h3 { 
+    color: #f2f2f2; 
+    font-size: 30px; 
+    font-weight: 200;
+    
+         
+}
+
+.container-menu {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    -webkit-transform: translateY( -50% );
+    -moz-transform: translateY( -50% );
+    transform: translateY( -50% ); 
+    
+}
+
+h3 {
+    font-family: 'Lato-Light';
+    font-size: 36px;
+    font-weight: 100;  
+   
+}
+ 
+h4{
+    font-family: 'Lato-Light';
+    font-size: 24px;
+    font-weight: 100; 
+     color: #f2f2f2; 
+    padding-top: 5px;
+}
+p {
+    font-family: 'Lato-Light';
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.titulo {
+     
+    margin: 0;
+}   
+.secao {
+     
+    margin-top: 50px;
+      
+}
+
+.titulo  p {
+    text-align: left;
+    padding-top: 20px;
+}
+.titulo img{
+    width: 400px;
+}
+.titulo button {
+    margin-top: 20px;
+}
+.titulo h1 {
+    font-size: 80px;
+    font-family: 'Lato-HairLine';
+    padding-bottom: 30px;
+}
+.botao {
+    font-size: 22px; 
+    font-family: 'Lato';
+    padding: 12px; 
+    background-color: rgba(0,0,0,0.0);
+    border: solid 2px #333;
+    color: #333; 
+    transition: 0.5s;
+}
+.botao:hover {
+    background-color: rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+    color: $corBackground; 
+}
+hr {
+        display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    
+    padding: 0;
+     margin-top: 60px;
+    margin-bottom: 60px;
+}
+.secao p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.imgServicoDiv {
+    height: 130px;
+    overflow: hidden;
+}
+.imgServico {
+    max-height: 120px;
+    max-width: auto;
+    
+     margin-top: 10px;
+    
+}
+.servico {
+    //coloca a altura fixa dos serviços 
+    display:  inline-block;
+    float: none;
+    width: 400px;
+    margin-bottom: 20px;
+    border: solid 2px $corBackground;
+        
+}
+.servico:hover {
+    border: solid 2px #333;
+    
+}
+.servico a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Lato-HairLine';
+}
+.tituloh3 {
+     
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 72px;
+}
+.descricaoP {
+    
+    height: 85px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    overflow: hidden;
+     
+}
+.botaoServico {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row {
+    text-align: center;
+}
+
+.showcase { 
+   background-image: url(img/imgHeader.jpg); 
+  
+    padding-top:  60px;
+    
+    background-position: center;
+    background-attachment: fixed !important;
+      
+    background-size: cover; 
+    height: 400px;
+    position: relative;
+} 
+.showcase h3 {
+    color: #f2f2f2;
+}
+.showcase .botao {
+    color: $corBackground;
+    border: solid 2px $corBackground;
+    margin-top: 20px;
+}
+.showcase-container {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    -webkit-transform: translateY( -50% );
+    -moz-transform: translateY( -50% );
+    transform: translateY( -50% ); 
+}
+.rodape {
+    background-color: #2f2f2f;
+    height: 600px;
+   
+} 
+.rodape .container {
+    padding-top: 50px;
+    color: #f2f2f2;
+    text-align: left;
+    font-family: 'Lato-Light';
+    line-height: 24px;
+     
+}
+.rodape .container h3 {
+    line-height: 32px;
+}
+.container address {
+    max-width: 340px;
+    padding: 20px 0;
+}
+
+ .grid-7 {
+   
+}
+.formulario input {
+    width: 100%;
+    padding-left: 10px;
+    height: 2.5em;
+}
+.formulario textarea {
+    width: 100%;
+    padding-left: 10px;
+    height: 6em;
+}
+.formulario label {
+     
+}
+.form-group {
+    width: 90%;
+    padding: 10px 0px;
+}
+.formulario .botao {
+    color: $corBackground;
+    border: solid 2px $corBackground;
+    padding-top: 10px;
+}
+.fimDoSite {
+    background-color: #222;
+    height: 80px;
+    color: #4e4e4e;
+}
+.fimDoSite a {
+    color: #6e6e6e;
+}
+.fimDoSite p{
+    padding-top: 10px;
+}
+
+#menu-tgl {
+    display: none;
+}
+
+.tituloMenu{
+    display: none;
+}
+
+
+@import 'responsiveTablet';
+@import 'responsiveMobile';
+
+
+
+
+
+
+
+
+
+
+

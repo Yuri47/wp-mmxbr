@@ -1,0 +1,193 @@
+/* RESPONSIVO Smartphone*/
+@media screen and (max-width: 759px) {
+  /* line 127, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
+    
+    .introducao {
+ 
+   background-image: url(img/bgmobile.jpg)  no-repeat center center fixed; 
+    }
+    .showcase { 
+   background-image: url(img/bgmobile.jpg); 
+   
+} 
+    
+    .introducao h1 { 
+    color: #fff; 
+    font-size: 70px;   
+    font-weight: 200;
+    font-family: 'Lato-HairLine';
+      
+}
+    .showcase h3 {
+    font-size: 2em;
+}
+    .showcase { 
+ 
+    height: 450px;
+    
+} 
+    .rodape {
+    background-color: #2f2f2f;
+    height: 1100px;
+   
+}
+    nav ul li:hover {
+    
+     background-color: rgba(0,0,0, 0.0);
+     
+}
+    
+    .contato {
+        margin-top: 50px;
+    }
+    .container {
+        overflow: hidden;
+    }
+    .grid-4 {
+        max-width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .introducao h1 { 
+    color: #fff; 
+    font-size: 3em;   
+    font-weight: 200;
+    font-family: 'Lato-HairLine';
+        
+}
+    .container-menu {
+    
+    left: 0%;
+    width: 100%;    
+}
+    .titulo h1 {
+        font-size: 4em;
+    }
+    .fimDoSite {
+    background-color: #222;
+    height: 110px;
+    color: #4e4e4e;
+}
+    form {
+        padding-bottom: 10px;
+    }
+    
+    .menuDrop {
+         min-width: 100%;
+          height: 50px;
+        transition: .5s;
+        background-color: rgba(0,0,0, 0.5);
+        
+	  
+    }
+    .menu .container {
+        padding-left: 0px;
+		padding-right: 0px;
+    }
+    
+    .menuDrop li {
+        padding-top: 20px;
+        display: list-item;
+    }
+    .icone {
+        background-color: aqua;
+        float: right;
+        font-size: 50px;
+        padding: 0 18px;
+        cursor: pointer;
+    }
+    .nav li::after  {
+           content: '';
+         display: block;
+        padding-top: 10px;
+        border-bottom: 1px solid #f2f2f2;
+         
+    }
+    .tituloMenu{
+        display: block;
+        color: #f2f2f2;
+        font-size: 2em;
+        font-family: 'Lato-HairLine';
+        text-align: center;
+        padding-top: 8px;
+        padding-left: 12%;
+}
+    
+    #menu-tgl {
+	display: none;
+}
+    
+    
+    //FUNÇÕES QUANDO PRESSIONAR O BOTÃO
+    #menu-tgl:checked ~ .menuDrop {
+	  height: 350px;
+        transition: .5s;
+          
+}
+    
+    #menu-tgl:checked ~ .menuDrop .menu-btn::after  {
+        content: '';
+        display: block;
+        height: 4px;
+        margin-top: 6px;
+         
+        position: relative;
+        transition: transform .2s ease;
+        
+        
+}
+    #menu-tgl:checked  ~ .menuDrop .menu-btn::after {
+        margin-top: 0px;
+         top: 2px;
+	transform: rotate(45deg);
+    }
+     #menu-tgl:checked  ~ .menuDrop .menu-btn {
+        border-top-color: transparent;
+    }
+    
+    #menu-tgl:checked  ~ .menuDrop .menu-btn::before {
+        margin-top: 0px;
+       top: 6px;
+	transform: rotate(135deg);
+         
+    }
+    
+    
+    //FIM DAS FUNÇÕES DO BOTAO
+    
+    
+    #menu-tgl ~ .menuDrop .menu-btn {
+       display: block;
+	color: #f2f2f2;
+	width: 36px;
+	height: 44px;
+	border-top: 4px solid;
+	margin: 12px 12px 0 0;
+	float: right;
+	position: relative;
+	cursor: pointer;
+	-webkit-backface-visibility: hidden;
+}
+    #menu-tgl ~ .menuDrop .menu-btn::after, .menuDrop .menu-btn::before {
+       content: '';
+	display: block;
+	height: 4px;
+	margin-top: 6px;
+	background: currentColor;
+	position: relative;
+	transition: transform .2s ease;
+        
+        
+}
+   
+    
+    
+    
+    
+    
+    
+}
+ 
