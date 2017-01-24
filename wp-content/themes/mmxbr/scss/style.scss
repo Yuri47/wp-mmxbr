@@ -360,7 +360,9 @@ hr {
 .tituloMenu{
     display: none;
 }
-
+.current-menu-item a {
+    font-weight: 600;
+}
 @import 'dicas';
 @import 'responsiveTablet';
 @import 'responsiveMobile';

@@ -1,7 +1,3 @@
- <?php
-//Template Name: Dicas
-?>
-     
 <?php get_header() ?>
 
 <div class="container">
@@ -59,18 +55,7 @@
 
 <?php else: endif; ?>
                  
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
+                  
                  
                  
                

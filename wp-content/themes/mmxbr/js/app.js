@@ -10,12 +10,12 @@
         if(windowScrollPosTop >= 150) {
 
             
-          jQuery(".menu").css({"background-color": "rgba(0,0,0,.5)",});
+          jQuery("nav").css({"background-color": "rgba(0,0,0,.5)",});
            
          
         }
         else{
-          jQuery(".menu").css({"background-color": "rgba(0,0,0,.0)",});
+          jQuery("nav").css({"background-color": "rgba(0,0,0,.0)",});
             
             
           

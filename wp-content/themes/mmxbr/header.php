@@ -39,18 +39,17 @@
    
             <input type="checkbox" id="menu-tgl" />
             
-            <div class="menuDrop">
+            <div class="menuDrop  nav navbar-nav">
 <!--                <span class="icone">=</span>-->
                   <label for="menu-tgl" class="menu-btn"></label> 
                 <span class="tituloMenu">Macromix</span>
-              <ul class="nav navbar-nav">
-                
-                <li ><a href="/wp-mmxbr" class="">Início</a></li>
-                <li><a href="/services" class="">Serviços</a></li>
-                <li><a href="/criarsites" class="">Criação de Sites</a></li>
-                <li><a href="dicas" class="">Dicas</a></li>
-                <li><a href="#contact" class="">Contato</a></li>
-              </ul>
+            <?php
+	$args = array(
+		'menu' => 'menu',
+		'container' => false
+	);
+	wp_nav_menu( $args );
+?>
             </div> 
           </div>
         </nav>

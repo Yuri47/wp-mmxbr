@@ -666,6 +666,11 @@ hr {
   display: none;
 }
 
+/* line 363, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/style.scss */
+.current-menu-item a {
+  font-weight: 600;
+}
+
 /* line 1, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
 .imgDicasDiv {
   height: 200px;
