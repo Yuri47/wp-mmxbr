@@ -9,7 +9,7 @@
             <div class="row">
             
                   <h3>Confira nossas dicas sobre informática sobre como ter o melhor aproveitamento das suas tarefas e produtos</h3>
-                   <a href="/dicas">
+                   <a href="dicas">
                    <button type="button" class="botao"> Clique Aqui</button> 
                    </a>
                   

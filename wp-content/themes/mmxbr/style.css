@@ -681,10 +681,17 @@ hr {
 .imgDicas {
   max-height: 200px;
   max-width: auto;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 /* line 10, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+.imgSite {
+  max-height: auto;
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+/* line 16, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
 .dicas {
   display: inline-block;
   float: none;
@@ -693,25 +700,25 @@ hr {
   border: solid 2px #f2f2f2;
 }
 
-/* line 19, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+/* line 25, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
 .dicas:hover {
   border: solid 2px #333;
 }
 
-/* line 23, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+/* line 29, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
 .dicas a {
   text-decoration: none;
   color: #333;
   font-family: 'Lato-HairLine';
 }
 
-/* line 28, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+/* line 34, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
 .post {
   max-width: 58%;
   margin: 0 auto;
 }
 
-/* line 32, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+/* line 38, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
 .post p {
   text-align: left;
   font-size: 18px;
@@ -720,32 +727,32 @@ hr {
   text-indent: 3em;
 }
 
-/* line 40, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+/* line 46, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
 .data {
   color: #2f2f2f;
   color: #333;
   font-family: 'Lato-Light';
 }
 
-/* line 45, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+/* line 51, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
 .post strong {
   font-weight: 600;
 }
 
-/* line 48, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+/* line 54, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
 .post a {
   color: #999;
   font-family: 'Lato';
   text-decoration: none;
 }
 
-/* line 53, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+/* line 59, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
 .post h3 {
   text-align: left;
   margin-bottom: 10px;
 }
 
-/* line 57, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
+/* line 63, C:/wamp/www/wp-mmxbr/wp-content/themes/mmxbr/scss/_dicas.scss */
 .postH3 {
   margin-bottom: 20px;
 }

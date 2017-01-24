@@ -35,12 +35,12 @@
                  
                 <div class="grid-4 servico">
                     <div class="imgServicoDiv">
-                        <a href="services/instalacao-de-bulk-ink">
+                         <a href="services/solucoes-em-impressao">
                             <img src=<?php echo get_stylesheet_directory_uri(); ?>/img/bulk.png alt="" class="imgServico">
                         </a>
                     </div>
                     <div class="tituloh3">
-                        <a href="/services/instalacao-de-bulk-ink">
+                         <a href="services/solucoes-em-impressao">
                             <h3>Soluções em Impressão</h3>
                         </a>
                     </div>
@@ -49,19 +49,19 @@
                         </p>
                     </div>
                     <div class="botaoServico">   
-                    <a href="/services/instalacao-de-bulk-ink"> <button type="button" class="botao">Ver Detalhes</button></a>
+                    <a href="services/solucoes-em-impressao"> <button type="button" class="botao">Ver Detalhes</button></a>
                     </div>     
                 </div>
                  
                   
                 <div class="grid-4 servico">
                     <div class="imgServicoDiv">
-                        <a href="/services/instalacao-de-bulk-ink">
-                    <img src=<?php echo get_stylesheet_directory_uri(); ?>/img/config.png alt="" class="imgServico">
+                        <a href="services/manutencao-de-computadores-e-notebooks">
+                    <img src=<?php echo get_stylesheet_directory_uri(); ?>/img/windows-icon.png alt="" class="imgServico">
                         </a>
                     </div>
                     <div class="tituloh3">
-                        <a href="/services/instalacao-de-bulk-ink">
+                        <a href="services/manutencao-de-computadores-e-notebooks">
                     <h3>Manutenção</h3>
                         </a>
                     </div>
@@ -70,19 +70,19 @@
                         </p>
                     </div>
                     <div class="botaoServico">   
-                    <a href="/services/instalacao-de-bulk-ink"> <button type="button" class="botao">Ver Detalhes</button></a>
+                    <a href="services/manutencao-de-computadores-e-notebooks"> <button type="button" class="botao">Ver Detalhes</button></a>
                     </div>     
                 </div>
                  
                   
                 <div class="grid-4 servico">
                     <div class="imgServicoDiv">
-                        <a href="/services/instalacao-de-bulk-ink">
+                        <a href="criarsites">
                     <img src=<?php echo get_stylesheet_directory_uri(); ?>/img/responsive.png alt="" class="imgServico">
                         </a>
                     </div>
                     <div class="tituloh3">
-                        <a href="/services/instalacao-de-bulk-ink">
+                        <a href="criarsites">
                     <h3>Criação de Sites</h3>
                         </a>
                     </div>
@@ -91,7 +91,7 @@
                         </p>
                     </div>
                     <div class="botaoServico">   
-                    <a href="/services/instalacao-de-bulk-ink"> <button type="button" class="botao">Ver Detalhes</button></a>
+                    <a href="criarsites"> <button type="button" class="botao">Ver Detalhes</button></a>
                     </div>     
                 </div>
                   

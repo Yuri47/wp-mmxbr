@@ -1,5 +1,5 @@
 <?php 
-//Template Name: Services
+
 ?>
 <?php get_header() ?>
 
@@ -13,7 +13,7 @@ POSTAGEM
 *************************
 -->    
     
-    
+   
        
          <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	
@@ -37,12 +37,19 @@ POSTAGEM
          <!--seção serviços -->
     <section class="secao">
              <div class="row">
-                 <div class="post">    
-                 <div class=""> 
-                <?php  the_content() ?>
                  
-              </div>
-                  </div>
+                 <div class="grid-4"> 
+                     <img src="<?php the_field('primeiraimagem'); ?>"  alt="" class="imgDicas">
+                     <img src="<?php the_field('segundaimagem'); ?>"  alt="" class="imgDicas">
+                      
+                      </div>
+                 <div class="grid-8 post"> 
+                    <?php  the_content() ?>
+                 
+                 </div>
+                 
+                 <?php  the_field('galeria') ?>
+                 
                  
      </div>
    </section> 
@@ -55,18 +62,13 @@ POSTAGEM
 <?php else: endif; ?>
     
     
-    
-    
-     
      
     
     
+    <hr>
     
     
-    
-    
-    
-  <section class="secao">
+  <section class="secao others">
              <div class="row">
                   
                  <h3 class="postH3">Outros Serviços</h3>

@@ -5,8 +5,14 @@
 .imgDicas {
     max-height: 200px;
     max-width: auto;
-    margin-top: 10px; 
+    padding-top: 10px; 
 }
+.imgSite {
+    max-height: auto;
+    max-width: 100%;
+    padding-top: 10px; 
+}
+
 .dicas {
     //coloca a altura fixa dos serviços 
     display:  inline-block;

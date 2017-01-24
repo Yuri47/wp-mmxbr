@@ -36,13 +36,15 @@ POSTAGEM
                 
          <!--seção serviços -->
     <section class="secao">
-             <div class="row">
-                 <div class="post">    
-                 <div class=""> 
-                <?php  the_content() ?>
+               <div class="grid-4"> 
+                     <img src="<?php the_field('primeiraimagem'); ?>"  alt="" class=" imgSite">
+                     <img src="<?php the_field('segundaimagem'); ?>"  alt="" class=" imgSite">
+                      
+                      </div>
+                 <div class="grid-8 post"> 
+                    <?php  the_content() ?>
                  
-              </div>
-                  </div>
+                 </div>
                  
      </div>
    </section> 

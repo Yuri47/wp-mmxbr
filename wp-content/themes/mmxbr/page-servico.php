@@ -1,11 +1,26 @@
+<?php 
+//Template Name: ServicesPage
+?>
+
 <?php get_header() ?>
 
 <div class="container">
     
+    
+<!--
+************************
+Página para mostrar todos os serviços
+************************
+-->
+    
+    
+    
+    
+    
          <!--seção introdução -->
     <section class="secao">
         <div class="row titulo">
-        <h1>Dicas de Informática</h1>
+        <h1>Serviços</h1>
              
        
 
@@ -17,18 +32,36 @@
          <!--seção serviços -->
     <section class="secao">
              <div class="row">
+                  
+                 
+                 
  
-               
+
+    
+                 <?php
+                    $args = array(
+	                   'post_type' => 'services',
+                          
+	 
+                                );
+
+// The Query
+$the_query = new WP_Query( $args );
+
+// The Loop
+if ( $the_query->have_posts() ) {
+	 
+	while ( $the_query->have_posts() ) {
+		$the_query->the_post();
+        
+        
+        
+        ?>
                  
-                 
-                 
-                 
-                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	
-	     <div class="grid-4 dicas">
+                      <div class="grid-4 dicas">
                     <div class="imgDicasDiv">
                         <a href="<?php the_permalink(); ?>">
-                            <img src="<?php the_field('imagem'); ?>"  alt="" class="imgDicas">
+                            <img src="<?php the_field('icone'); ?>"  alt="" class="imgDicas">
                         </a>
                     </div>
                     <div class="tituloh3">
@@ -37,29 +70,34 @@
                         </a>
                     </div>
                     <div class="descricaoP">
-                        <p><?php echo the_content() ?>
+                        <p><?php echo the_field('descricao') ?>
                         </p>
  
                     </div>
                     <div class="botaoServico">   
-                    <a href="<?php the_permalink(); ?>"> <button type="button" class="botao">Ler mais</button></a>
+                    <a href="<?php the_permalink(); ?>"><button type="button" class="botao">Ler mais</button></a>
                     </div>     
                 </div>
-
-<?php endwhile; ?>
-
-	<div class="nav-blog grid-16">
-	 	<?php next_posts_link( '← Posts Antigos' ); ?>
-		<?php previous_posts_link( 'Posts Novos →' ); ?>
-	</div>
-
-<?php else: endif; ?>
-                 
                   
                  
                  
-               
-                  
+                 <?php
+         
+		 
+	}
+	 
+	/* Restore original Post Data */
+	wp_reset_postdata();
+} else {
+	// no posts found
+    echo 'n';
+}
+                
+       ?>          
+            
+                 
+                 
+                
                  
      </div>
    </section> 
