@@ -13,18 +13,15 @@
     <meta name="author" content="Yuri Alexs">
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
     <meta name="theme-color" content="‪#0000FF">
-
-    <title><?php bloginfo( 'name' ); ?></title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" rel="stylesheet">
+ <title><?php wp_title('-'); ?> <?php bloginfo('name'); ?>  <?php the_field('title_seo'); ?></title>
+    
 
     
      
   
 
     <?php wp_head() ?>
- 
+
   </head>
 
 <body data-spy="scroll" data-offset="0" data-target="#navigation">

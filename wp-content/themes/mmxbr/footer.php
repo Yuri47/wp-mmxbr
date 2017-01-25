@@ -50,33 +50,42 @@
                  <h3>Envie-nos uma mensagem</h3>
                 <div class="formulario">
                  
-                
-                <form  action="/mail" method="post" enctype="text/plain"> 
-                  <input type="hidden" name="_token" id="_token" value="stJpaat4tCQ9LXjsPmPn7HDAtcM4lZ7wLKVdwNXQ">
-                  <div class="form-group">
-                    <label for="name">Seu Nome</label>
-                    <input type="text" required name="name" id="name" class="form-control"   placeholder="Seu Nome">
-                  </div>
-                  <div class="form-group">
-                    <label for="phone">Telefone (opcional)</label>
-                    <input type="text"  name="phone" id="phone" class="form-control"   placeholder="Telefone">
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Seu Email</label>
-                    <input type="email" required name="email" id="email" class="form-control"   placeholder="Seu Email">
-                  </div>
-                  <div class="form-group">
-                    <label for="subject">Assunto</label>
-                    <input type="text" required name="subject" id="subject" class="form-control"   placeholder="Assunto">
-                  </div>
-                  <div class="form-group">
-                    <label>Sua Mensagem</label>
-                    <textarea class="form-control" required name="message" id="message" rows="3"></textarea>
-                  </div>
-                   
-                  
-                  <button type="submit" id="1" class="botao">Enviar</button>  
-                </form>
+                      
+                    
+                    
+                    
+                    <form action="<?php echo get_template_directory_uri(); ?>/enviar.php" method="post" name="form" class="formphp contato_form  ">
+				<label for="nome">Nome</label>
+				<input id="nome" required name="nome" type="text">
+				<label for="email">E-mail</label>
+				<input id="email" required name="email" type="text">
+				<label for="telefone">Telefone</label>
+				<input id="telefone" name="telefone" type="text">
+                <label for="assunto">Assunto</label>
+				<input id="assunto" required name="assunto" type="text">
+				<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+				<input type="text" class="nao-aparece" name="leaveblank">
+				<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+				<input type="text" class="nao-aparece" name="dontchange" value="http://" >
+
+				<label for="mensagem">Mensagem</label>
+				<textarea required name="mensagem" id="mensagem"></textarea>
+
+				<button id="enviar" name="enviar" type="submit" class="botao">Enviar</button>
+			</form>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                 </div>
             </div>
         </div>
@@ -106,14 +115,7 @@
         </div>
     </div>
 
-
  
- 
-
-   
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery-3.1.1.min.js"></script>
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/app.js"></script>
-    
      
     
     <?php wp_footer() ?>    

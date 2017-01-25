@@ -1,5 +1,41 @@
 <?php 
 
+
+// Função para registrar os Scripts e o CSS
+function macromix_scripts() {
+	// Desregistra o jQuery do Wordpress
+	wp_deregister_script('jquery');
+
+	// Registra o jQuery Novo
+	wp_register_script( 'jquery', get_template_directory_uri() . '/js/jquery-3.1.1.min.js', array(), "3.1.1", true );
+
+	 
+	// Registrar Main
+	wp_register_script( 'app-script', get_template_directory_uri() . '/js/app.js', array( 'jquery' ), false, true );
+
+	 
+
+	// Carrega o Script
+	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'app-script' );	
+}
+add_action( 'wp_enqueue_scripts', 'macromix_scripts' );
+
+function macromix_css() {
+	wp_register_style( 'macromix-style', get_template_directory_uri() . '/style.css', array(), false, false );
+	wp_enqueue_style( 'macromix-style' );
+}
+add_action( 'wp_enqueue_scripts', 'macromix_css' );
+
+
+
+
+
+
+
+
+
+
 // Funções para Limpar o Header
 remove_action('wp_head', 'rsd_link');
 remove_action('wp_head', 'wlwmanifest_link');

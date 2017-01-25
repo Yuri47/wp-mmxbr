@@ -363,6 +363,15 @@ hr {
 .current-menu-item a {
     font-weight: 600;
 }
+.nao-aparece {
+    display: none !important;
+}
+#form-send {
+    color: #1E90FF;
+}
+#form-erro {
+    color: red;
+}
 
 @import 'dicas';
 @import 'responsiveTablet';
